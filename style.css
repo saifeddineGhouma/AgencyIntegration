@@ -1,0 +1,86 @@
+header{
+    color: #fff;
+    height: 112px;
+    line-height: 112px;
+
+    position: fixed;
+    width: 100%;
+   z-index: 100;
+}
+header a.logo{
+    float: left;
+}
+header nav{
+    float: right;
+    font-weight: bold; 
+}
+
+header nav ul li{
+    padding-left: 30px;
+}
+header nav ul li a {
+    color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+header nav ul li a:hover ,header nav ul li a:focus           {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+/*********** star slider section*****/
+
+.slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+}
+.slider ul.slider-carousel li h1{
+    margin-bottom: 30px;
+    margin-top: 150px;
+    color:#fff;
+}
+.slider ul.slider-carousel li p{
+    margin-bottom: 50px;
+}
+.slider ul.slider-carousel li a {
+    padding: 10px 40px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    
+}
+.slider ul.slider-carousel li a:last-child {
+    margin-right: 0px;
+}
+.img1{
+    background: url(img/slider/slider1.png);
+    background-size: 100% 100%
+}
+.slider ul.slider-carousel li a.cta1:hover{
+    background-color: #ff695a;
+    border-radius: 5px;
+}
+.slider ul.slider-carousel li a.cta2:hover{
+    background-color:#3f9cfe;
+    border-radius: 5px;
+}
+.slider ul.sliderpager li{
+    padding: 0px 2px;
+    height: 28px;
+    line-height: 28px;
+}
+.slider ul.sliderpager li a{
+    color:blue;
+}
+.slider ul.sliderpager li.selected a{
+    color:#e74c3c;
+}
