@@ -84,3 +84,410 @@ header nav ul li a:hover ,header nav ul li a:focus           {
 .slider ul.sliderpager li.selected a{
     color:#e74c3c;
 }
+
+/*********** star services section*****/
+
+.services{
+text-align: center;
+}
+.services .service-contenu i{
+    font-size: 34px;
+    color: #000
+}
+.service-header{
+    margin-bottom: 50px; 
+}
+/*********start portfolio section*****/
+.portfolio-header{
+    margin-bottom: 50px;
+    color:white;
+ text-align: center;
+
+}
+.portfolio-header h1{
+    color:white;
+}
+.portfolio{
+   
+    background: url('img/portfolio/image1.png');
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  /*background-color: #e9a02e;*/
+}
+.portfolio .inner-content{
+    position: relative;
+    width: 265px;
+    height: 225px;
+}
+.portfolio .inner-content img{
+    width: 100%;
+    height: 100%;
+
+}
+.portfolio .inner-content .overlay-content{
+    position: absolute;
+    top:100%;
+    left:0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+ .portfolio .inner-content .overlay-content h3,.portfolio .inner-content .overlay-content p{
+    color:white
+}
+.portfolio .inner-content .overlay-content h3{
+    padding-top: 26%;
+    color:#e74c3c
+}
+.portfolio .inner-content:hover .overlay-content{
+    top:0px;
+}
+.portfolio .inner-content .overlay-content p a{
+   
+    font-weight: bold
+}
+.portfolio .portfolio-nav{
+    text-align: center;
+    margin-top: 40px
+}
+.portfolio .portfolio-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    border-radius: 50%;
+    line-height: 30px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.portfolio .portfolio-nav li:hover {
+    background-color: #e74c3c;
+   
+   
+}
+
+/***********team section***********/
+
+.team-header{
+    margin-bottom: 50px;
+    color:rgb(3, 3, 3);
+ text-align: center;
+
+}
+
+
+.team{
+   
+   /* background: url('img/portfolio/image1.png');*/
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  /*background-color: #e9a02e;*/
+}
+.team .inner-content{
+    position: relative;
+    width: 265px;
+    height: 225px;
+}
+.team .inner-content img{
+    width: 100%;
+    height: 100%;
+
+}
+.team .inner-content .overlay-content{
+    position: absolute;
+    top:100%;
+    left:0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+ .team .inner-content .overlay-content h3,.team .inner-content .overlay-content p{
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.portfolio .inner-content .overlay-content h3{
+    padding-top: 26%;
+    color:#e74c3c
+}
+.team .inner-content:hover .overlay-content{
+    top:0px;
+}
+.team .inner-content .overlay-content p a{
+   
+    font-weight: bold
+}
+.team .team-nav{
+    text-align: center;
+    margin-top: 40px
+}
+.team .team-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    color:#000;
+    border-radius: 50%;
+    line-height: 25px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.team .team-nav li:hover {
+    background-color: #e74c3c;
+   
+   
+}
+.team-name{
+    font-weight: bold;
+   padding-top:15%;
+}
+.team-job{
+    font-weight: bold;
+   
+}
+ul.social-link li.facebook{
+background-color: blue
+}
+ul.social-link li.twitter{
+    background-color: #3f9cfe;
+    
+}
+ul.social-link li.google{
+    background-color: #e74c3c;
+}
+ul.social-link li {
+color: #fff;
+font-size: 15px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 50%;
+padding: 0px auto;
+margin-left: 15px;
+}
+/*********  start testimonials*/
+.testimonials-header{
+    margin-bottom: 50px;
+    text-align: center;
+    color:white;
+}
+.testimonials-header h1{
+    color:white;
+
+}
+.testimonials{
+    background: url('img/testi-bg.png');
+    background-attachment: fixed;
+    background-size:  100% 100%;
+    color:white;
+    margin-bottom: 42px;
+    text-align: center;
+}
+.testimonials-carousel li{
+    text-align: center;
+  
+    margin: 0 200;
+}
+blockquote{
+    border: none;
+  
+   
+    line-height: 1.5em;
+    font-size: 14px;
+    position:  relative;
+    display: inline-block;
+    padding: 0px;
+}
+blockquote::before{
+    position: absolute;
+    content: "\f10d";
+    top: -5px;
+    left: -20px;
+    font-family: fontAwesome;
+}
+blockquote::after{
+    position: absolute;
+    content: "\f10e";
+    bottom:  -5px;
+    right:  -20px;
+    font-family: fontAwesome;
+}
+
+.testimonials-carousel li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 2px solid white;
+
+}
+.testimonials-carousel li p.name{
+    color:#e74c3c;
+    font-weight: bold;
+}
+.testimonials-carousel li p.position{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.testipage li{
+    margin-right: 5px;
+}
+.testipage li a{
+    color:#fff;
+}
+.testipage li:last-child{
+    margin-right: 0px;
+}
+.testipage li.selected a{
+    color:#e74c3c;
+}
+/**************end testimonials********/
+
+
+
+/*********start blog**********/
+
+.blog-header{
+    text-align: center;
+    color:black;
+    margin-bottom: 42px;
+}
+.blog p strong.date{
+    color:#333
+}
+.blog h3 a:hover{
+    color:#e74c3c;
+}
+
+/****start contact us*******/
+.contact{
+    background-image: url(img/contact_us.png);
+    background-attachment: fixed;
+    background-size:  100% 100%;
+    color: white;
+   
+}
+.contact-header h1{
+    
+    color: white;
+
+}
+form.contact-form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+input:not([type=submit]) , textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color:#777;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) inset ;
+    border: none;
+    background-color: rgba(255, 255,255, 0.9)
+}
+input:not([type=submit]) {
+    height: 40px;
+    line-height: 40px;
+}
+textarea{
+    padding-top: 10px;
+}
+#submit{
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+/************ footer***********/
+footer{
+    padding-top: 56px;
+}
+footer h1{
+    padding-bottom: 20px;
+}
+footer p i{
+    color:#2d82d8;
+    font-size: 30px
+}
+footer p span {
+    padding-left: 15px;
+    font-weight: bold;
+}
+ footer p.about{
+     margin-bottom: 30px;
+ }
+
+ form.update-form input:not([type=submit]){
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color:#777;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) inset ;
+    border: none;
+    background-color: rgba(255, 255,255, 0.9)
+}
+#take-email{
+    margin-bottom: 20px;
+
+}
+#submit-button{
+    background-color: #e74c3c;
+    color:#fff;
+    border:none;
+    padding: 5px 30px;
+    height: 40px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.footer-social-links li{
+    padding: 0 10px;
+    font-size: 30px
+}
+
+.footer-social-links li a i.fa-facebook{
+  color:#3b5999;
+}
+
+.footer-social-links li a i.fa-google-plus{
+    color: #e74c3c;
+}
+.footer-social-links li a i.fa-twitter{
+    color:#55acee;
+}
+
+.footer-social-links li a i.fa-dribbble{
+    color: #ea4c89
+   
+}
+.footer-social-links li a i.fa-youtube{
+    color: #cd201f
+}
+.fa-envelope{
+    font-size: 100px;
+}
+
+.copyright{
+    margin-top: 56px;
+text-align: center;
+color:#fff;
+background-color: #333;
+height: 28px;
+line-height: 15px;
+font-weight: bold;
+}
